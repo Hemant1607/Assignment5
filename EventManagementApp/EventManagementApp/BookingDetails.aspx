@@ -38,7 +38,7 @@
                             <div class="form-group">
                             <div class="input-group">
                             <asp:TextBox CssClass="form-control" ID="txtBookingId" runat="server" placeholder="Booking ID"></asp:TextBox>
-                             <asp:Button CssClass="btn btn-primary  " ID="btnGo" runat="server" Text="Go" />
+                             <asp:Button CssClass="btn btn-primary  " ID="btnGo" runat="server" Text="Go" OnClick="btnGo_Click" />
                             </div>
                             </div>
                             </div>
@@ -62,9 +62,9 @@
                             <div class="row">
                             <div class="col">
                            <center>
-                                <asp:Button CssClass="btn btn-primary btn-block " ID="btnPrint" runat="server" Text="Print Receipt" />
-                               <asp:Button CssClass="btn btn-success btn-block " ID="btnOrder" runat="server" Text="Show Order" />
-                               <asp:Button CssClass="btn btn-danger btn-block " ID="btnCancel" runat="server" Text="Cancel Booking" />
+                                <asp:Button CssClass="btn btn-primary btn-block " ID="btnPrint" runat="server" Text="Print Receipt" OnClick="btnPrint_Click" />
+                               <asp:Button CssClass="btn btn-success btn-block " ID="btnOrder" runat="server" Text="Show Order" OnClick="btnOrder_Click" />
+                               <asp:Button CssClass="btn btn-danger btn-block " ID="btnCancel" runat="server" Text="Cancel Booking" OnClick="btnCancel_Click" />
                                </center>
                             </div>
                             </div>
